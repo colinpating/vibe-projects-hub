@@ -3,7 +3,7 @@
     "id": "medicare-advantage-tracker",
     "title": "Medicare Advantage Tracking Dashboard",
     "description": "Dashboard for monitoring plan trends, member movement, and performance metrics by market.",
-    "url": "https://example.com/medicare-advantage-tracker",
+    "url": "https://github.com/colinpating/medicare-advantage-dashboard",
     "tags": ["medicare", "dashboard", "analytics"],
     "status": "active"
   },
