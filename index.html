@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vibe Projects Hub</title>
+  <meta name="description" content="A central hub for all vibe-coded projects.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-bg" aria-hidden="true"></div>
+  <main class="shell">
+    <header class="hero">
+      <p class="eyebrow">Project Navigator</p>
+      <h1>Vibe-Coded Projects Hub</h1>
+      <p class="subtitle">Browse active and archived builds across your Medicare and analytics experiments.</p>
+    </header>
+
+    <section class="controls" aria-label="Project filters">
+      <label class="search-wrap" for="search-input">
+        <span class="sr-only">Search projects</span>
+        <input id="search-input" type="search" placeholder="Search title, description, or tags...">
+      </label>
+
+      <div class="filter-group">
+        <p class="filter-label">Status</p>
+        <div id="status-filters" class="chip-row"></div>
+      </div>
+
+      <div class="filter-group">
+        <p class="filter-label">Tags</p>
+        <div id="tag-filters" class="chip-row"></div>
+      </div>
+    </section>
+
+    <section class="list-section">
+      <div class="list-head">
+        <p id="results-count" class="results-count">Loading projects...</p>
+      </div>
+      <div id="cards-grid" class="cards-grid" aria-live="polite"></div>
+      <p id="empty-state" class="empty-state" hidden>No projects match your current filters.</p>
+      <p id="error-state" class="error-state" hidden>Could not load project data. Check <code>data/projects.json</code> and refresh.</p>
+    </section>
+  </main>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "medicare-advantage-tracker",
+    "title": "Medicare Advantage Tracking Dashboard",
+    "description": "Dashboard for monitoring plan trends, member movement, and performance metrics by market.",
+    "url": "https://example.com/medicare-advantage-tracker",
+    "tags": ["medicare", "dashboard", "analytics"],
+    "status": "active"
+  },
+  {
+    "id": "medicare-stars-visualizer",
+    "title": "Medicare Advantage Stars Visualizer",
+    "description": "Interactive visualizer to explore CMS star rating shifts and quality measure breakdowns.",
+    "url": "https://example.com/medicare-stars-visualizer",
+    "tags": ["medicare", "stars", "visualization"],
+    "status": "active"
+  },
+  {
+    "id": "member-churn-playground",
+    "title": "Member Churn Playground",
+    "description": "Sandbox for experimenting with retention scoring models and intervention scenarios.",
+    "url": "https://example.com/member-churn-playground",
+    "tags": ["modeling", "retention", "experiments"],
+    "status": "paused"
+  },
+  {
+    "id": "network-adequacy-audit",
+    "title": "Network Adequacy Audit Tool",
+    "description": "Prototype utility for validating provider network coverage against regional access rules.",
+    "url": "https://example.com/network-adequacy-audit",
+    "tags": ["compliance", "providers", "audit"],
+    "status": "archived"
+  },
+  {
+    "id": "benefit-design-lab",
+    "title": "Benefit Design Lab",
+    "description": "Quick what-if comparison tool for plan benefit structures and cost-sharing designs.",
+    "url": "https://example.com/benefit-design-lab",
+    "tags": ["benefits", "planning", "comparison"],
+    "status": "active"
+  }
+]
