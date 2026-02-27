@@ -8,10 +8,10 @@
     "status": "active"
   },
   {
-    "id": "medicare-stars-visualizer",
-    "title": "Medicare Advantage Stars Visualizer",
-    "description": "Interactive visualizer to explore CMS star rating shifts and quality measure breakdowns.",
-    "url": "https://example.com/medicare-stars-visualizer",
+    "id": "cms-contract-stars-visualizer",
+    "title": "CMS Contract Stars Visualizer",
+    "description": "Interactive visualizer for CMS contract-level Stars trends (2017-2026) with parent and all-MA comparisons.",
+    "url": "https://github.com/colinpating/cms-contract-stars-visualizer",
     "tags": ["medicare", "stars", "visualization"],
     "status": "active"
   },
