@@ -40,6 +40,14 @@
     "status": "active"
   },
   {
+    "id": "dynasty-maxpf-projector",
+    "title": "Dynasty MaxPF Projector",
+    "description": "Projects each team's Maximum Possible Fantasy Points over the regular season using Monte Carlo simulation, Sleeper API rosters, and Mike Clay's ESPN projections.",
+    "url": "https://mtpxtkzrfnuo2qqgz5jghw.streamlit.app/",
+    "tags": ["fantasy football", "simulation", "sports"],
+    "status": "active"
+  },
+  {
     "id": "garlic-fry-club",
     "title": "Garlic Fry Club",
     "description": "The definitive garlic fry rankings list.",
